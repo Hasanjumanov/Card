@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s;
+    font-family: 'Fredoka', sans-serif;
+}
+@mixin df($a,$j) {
+    display: flex;
+    align-items: $a;
+    justify-content: $j;
+}
+@mixin dfc($a,$j) {
+    display: flex;
+    align-items: $a;
+    justify-content: $j;
+    flex-direction: column;
+}
+body{
+    background: rgb(222, 222, 222);
+}
